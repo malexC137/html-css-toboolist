@@ -4,6 +4,10 @@
     margin: 0;
 }
 
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 header {
     width: 100%;
     height: 70px;
@@ -11,15 +15,16 @@ header {
 
 .logo {
     float: left;
-    display: inline-block;
     height: 100%;
     vertical-align: middle;
     padding: 10px;
     padding-right: 0;
     padding-bottom: 10px;
+    
 }
 
 .logo-text {
+    display: inline;
     float: left;
     height: 100%;
     text-align: center;
@@ -37,7 +42,7 @@ main {
 
 .botton-bar {
     width: 80%;
-    height: 40px;
+    height: 50px;
     background-color: white;
     margin: auto;
     position: relative;
@@ -48,7 +53,23 @@ main {
 .buttons { 
     text-align: left;
     padding-top: 10px;
+    
   } 
+
+.button1 {
+    background-color: #1E90FF;
+    border-radius: 5px;
+    padding: 6px;
+    border-color: lightgray;
+    color: white;
+}
+
+.button2 {
+    border-radius: 5px;
+    padding: 6px;
+    border-color: lightgray;
+    color: lightgray;
+}
 
 .container {
     width: 80%;
@@ -62,7 +83,7 @@ main {
 }
 
 .wrapper {
-    width: 200px;
+    width: 500px;
     height: 500px;
     position: relative;
     left: 40px;
@@ -75,37 +96,45 @@ ul {
     text-indent: -1em;
  }
 
- .circle {
-     display: inline-block;
-     height: 20px;
-     width: 20px;
-     border-radius: 20%;
-     text-align: center;
-     vertical-align: middle;
-     line-height: 20px;
+li {
+    padding: 5px;
+}
+ .green {
+     color: #7CFC00;
+ }
+
+ .red {
+     color: red;
+ }
+
+ .tag {
      color: white;
- }
- 
- #editorial {
-     background-color: lightskyblue;
- }
-
- #goals {
-     background-color: lightpink;
+     padding: 5px;
+     border-radius: 5px;
+     line-height: 10px;
  }
 
- #recruiting {
-     background-color: lightgreen;
+ .blue {
+     background-color: #1E90FF;
  }
 
- #mobile {
-     background-color: orange;
+ .purple {
+     background-color: #7B68EE;
  }
 
- #website {
-     background-color: purple;
+ .lightgreen {
+     background-color: #7CFC00;
  }
 
- #sales {
-     background-color: yellow;
+ .salmon {
+     background-color: lightsalmon;
+ }
+
+ .pink {
+     background-color: #C71585;
+
+ }
+
+ .yellow {
+     background-color: #FFD700;
  }
